@@ -3,6 +3,11 @@ export default defineNuxtConfig({
 	compatibilityDate: "2024-04-03",
 	devtools: { enabled: true },
 	ssr: false,
+	app: {
+		head: {
+			title: process.env.NUXT_APP_NAME || "",
+		},
+	},
 	runtimeConfig: {
 		public: {
 			appName: process.env.NUXT_APP_NAME || "",
