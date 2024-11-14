@@ -21,7 +21,7 @@
 							align="start"
 							side="bottom"
 							:side-offset="4">
-							<DropdownMenuLabel class="text-xs text-muted-foreground"> Apps </DropdownMenuLabel>
+							<DropdownMenuLabel class="text-xs text-muted-foreground"> Other apps </DropdownMenuLabel>
 							<NuxtLink v-for="app in inActiveApps" :key="app.name" :to="app.url">
 								<DropdownMenuItem class="gap-2 p-2">
 									<div
@@ -337,7 +337,7 @@
 							<DropdownMenuSeparator />
 							<DropdownMenuGroup>
 								<DropdownMenuItem>
-									<Icon name="mdi:check-decagram-outline" />
+									<Icon name="mdi:account-outline" />
 									Account
 								</DropdownMenuItem>
 								<DropdownMenuItem>
