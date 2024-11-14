@@ -100,3 +100,9 @@
 		@apply text-3xl tablet:text-lg mobile:text-base;
 	}
 }
+
+@layer utilities {
+	.router-link-active {
+		@apply text-primary;
+	}
+}
