@@ -106,7 +106,7 @@
 									<SidebarMenuSub>
 										<SidebarMenuSubItem>
 											<SidebarMenuSubButton as-child>
-												<NuxtLink to="/my-attendance">
+												<NuxtLink to="/my-stuff/attendance">
 													<span class="truncate">Attendance</span>
 												</NuxtLink>
 											</SidebarMenuSubButton>
@@ -114,7 +114,7 @@
 
 										<SidebarMenuSubItem>
 											<SidebarMenuSubButton as-child>
-												<NuxtLink to="/my-overtimes">
+												<NuxtLink to="/my-stuff/overtimes">
 													<span class="truncate">Overtimes</span>
 												</NuxtLink>
 											</SidebarMenuSubButton>
@@ -122,7 +122,7 @@
 
 										<SidebarMenuSubItem>
 											<SidebarMenuSubButton as-child>
-												<NuxtLink to="/my-requests">
+												<NuxtLink to="/my-stuff/requests">
 													<span class="truncate">Requests</span>
 												</NuxtLink>
 											</SidebarMenuSubButton>
@@ -130,7 +130,7 @@
 
 										<SidebarMenuSubItem>
 											<SidebarMenuSubButton as-child>
-												<NuxtLink to="/my-schedules">
+												<NuxtLink to="/my-stuff/schedules">
 													<span class="truncate">Schedules</span>
 												</NuxtLink>
 											</SidebarMenuSubButton>
@@ -181,7 +181,7 @@
 									<SidebarMenuSub>
 										<SidebarMenuSubItem>
 											<SidebarMenuSubButton as-child>
-												<NuxtLink to="/finance/channels">
+												<NuxtLink to="/finance/setup/channels">
 													<span class="truncate">Channels</span>
 												</NuxtLink>
 											</SidebarMenuSubButton>
@@ -189,7 +189,7 @@
 
 										<SidebarMenuSubItem>
 											<SidebarMenuSubButton as-child>
-												<NuxtLink to="/finance/mandatory-deductions">
+												<NuxtLink to="/finance/setup/mandatory-deductions">
 													<span class="truncate">Mandatory Deductions</span>
 												</NuxtLink>
 											</SidebarMenuSubButton>
@@ -214,7 +214,7 @@
 									<SidebarMenuSub>
 										<SidebarMenuSubItem>
 											<SidebarMenuSubButton as-child>
-												<NuxtLink to="/finance/sss">
+												<NuxtLink to="/finance/references/sss">
 													<span class="truncate">SSS</span>
 												</NuxtLink>
 											</SidebarMenuSubButton>
@@ -222,7 +222,7 @@
 
 										<SidebarMenuSubItem>
 											<SidebarMenuSubButton as-child>
-												<NuxtLink to="/finance/tax">
+												<NuxtLink to="/finance/references/tax">
 													<span class="truncate">Tax</span>
 												</NuxtLink>
 											</SidebarMenuSubButton>
@@ -338,7 +338,7 @@
 							<DropdownMenuGroup>
 								<DropdownMenuItem>
 									<Icon name="mdi:account-outline" />
-									Account
+									Account Settings
 								</DropdownMenuItem>
 								<DropdownMenuItem>
 									<Icon name="mdi:bell-outline" />

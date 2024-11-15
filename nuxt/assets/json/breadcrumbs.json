@@ -1,0 +1,92 @@
+{
+	"index": [{ "label": "Home", "to": "" }],
+	"schedules-slug": [
+		{ "label": "Home", "to": "" },
+		{ "label": "Schedules", "to": "" },
+		{ "label": ":slug", "to": "" }
+	],
+	"my-stuff-attendance": [
+		{ "label": "Home", "to": "" },
+		{ "label": "My Stuff", "to": "" },
+		{ "label": "Attendance", "to": "" }
+	],
+	"my-stuff-overtimes": [
+		{ "label": "Home", "to": "" },
+		{ "label": "My Stuff", "to": "" },
+		{ "label": "Overtimes", "to": "" }
+	],
+	"my-stuff-requests": [
+		{ "label": "Home", "to": "" },
+		{ "label": "My Stuff", "to": "" },
+		{ "label": "Requests", "to": "" }
+	],
+	"my-stuff-schedules": [
+		{ "label": "Home", "to": "" },
+		{ "label": "My Stuff", "to": "" },
+		{ "label": "Schedules", "to": "" }
+	],
+	"finance-payslip": [
+		{ "label": "Home", "to": "" },
+		{ "label": "Finance", "to": "" },
+		{ "label": "Payslip", "to": "" }
+	],
+	"finance-team-members": [
+		{ "label": "Home", "to": "" },
+		{ "label": "Finance", "to": "" },
+		{ "label": "Team Members", "to": "" }
+	],
+	"finance-setup-channels": [
+		{ "label": "Home", "to": "" },
+		{ "label": "Finance", "to": "" },
+		{ "label": "Setup", "to": "" },
+		{ "label": "Channels", "to": "" }
+	],
+	"finance-setup-mandatory-deductions": [
+		{ "label": "Home", "to": "" },
+		{ "label": "Finance", "to": "" },
+		{ "label": "Setup", "to": "" },
+		{ "label": "Mandatory Deductions", "to": "" }
+	],
+	"finance-references-sss": [
+		{ "label": "Home", "to": "" },
+		{ "label": "Finance", "to": "" },
+		{ "label": "References", "to": "" },
+		{ "label": "SSS", "to": "" }
+	],
+	"finance-references-tax": [
+		{ "label": "Home", "to": "" },
+		{ "label": "Finance", "to": "" },
+		{ "label": "References", "to": "" },
+		{ "label": "Tax", "to": "" }
+	],
+	"admin-reports": [
+		{ "label": "Home", "to": "" },
+		{ "label": "Admin", "to": "" },
+		{ "label": "Reports", "to": "" }
+	],
+	"admin-requests": [
+		{ "label": "Home", "to": "" },
+		{ "label": "Admin", "to": "" },
+		{ "label": "Requests", "to": "" }
+	],
+	"admin-overtimes": [
+		{ "label": "Home", "to": "" },
+		{ "label": "Admin", "to": "" },
+		{ "label": "Overtimes", "to": "" }
+	],
+	"admin-cutoffs": [
+		{ "label": "Home", "to": "" },
+		{ "label": "Admin", "to": "" },
+		{ "label": "Cutoffs", "to": "" }
+	],
+	"admin-team-members": [
+		{ "label": "Home", "to": "" },
+		{ "label": "Admin", "to": "" },
+		{ "label": "Team Members", "to": "" }
+	],
+	"admin-setup": [
+		{ "label": "Home", "to": "" },
+		{ "label": "Admin", "to": "" },
+		{ "label": "Setup", "to": "" }
+	]
+}
