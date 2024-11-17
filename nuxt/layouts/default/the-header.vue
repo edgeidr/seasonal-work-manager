@@ -4,7 +4,7 @@
 		<div class="flex items-center gap-2 px-4">
 			<Breadcrumb>
 				<BreadcrumbList>
-					<BreadcrumbItem v-for="(breadcrumb, index) in currentBreadcrumb" :key="breadcrumb.path">
+					<BreadcrumbItem v-for="(breadcrumb, index) in currentBreadcrumb" :key="breadcrumb.to">
 						<template v-if="index < currentBreadcrumb.length - 1">
 							<BreadcrumbLink class="capitalize" as-child>
 								<NuxtLink :to="breadcrumb.to">

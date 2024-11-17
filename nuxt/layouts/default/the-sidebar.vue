@@ -370,6 +370,6 @@
 		avatar: "/avatars/shadcn.jpg",
 	};
 
-	const activeApp = computed(() => apps.find((app) => app.initial == config.public.appName));
+	const activeApp = computed(() => apps.find((app) => app.name == config.public.appName));
 	const inActiveApps = computed(() => apps.filter((app) => app.name != config.public.appName));
 </script>
