@@ -360,15 +360,16 @@
 </template>
 
 <script setup lang="ts">
-	import apps from "@/assets/json/apps.json";
+	import appsData from "@/assets/json/apps.json";
 
 	const config = useRuntimeConfig();
-	const user = {
+	const apps: Apps = appsData;
+	const user: User = {
 		name: "Ian Del Rosario",
 		email: "edge.idr@gmail.com",
 		avatar: "/avatars/shadcn.jpg",
 	};
 
-	const activeApp = computed(() => apps.find((app) => app.name == config.public.appName));
+	const activeApp = computed(() => apps.find((app) => app.initial == config.public.appName));
 	const inActiveApps = computed(() => apps.filter((app) => app.name != config.public.appName));
 </script>

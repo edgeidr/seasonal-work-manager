@@ -6,7 +6,7 @@
 		</div>
 
 		<div class="grid gap-6">
-			<form @submit="onSubmit">
+			<form @submit.prevent="onSubmit">
 				<div class="grid gap-2">
 					<div class="grid gap-1">
 						<Label class="sr-only" for="email"> Email </Label>
@@ -58,8 +58,7 @@
 	const isLoading = ref(false);
 	const isLoadingGoogle = ref(false);
 
-	const onSubmit = (event: Event) => {
-		event.preventDefault();
+	const onSubmit = () => {
 		isLoading.value = true;
 
 		setTimeout(async () => {

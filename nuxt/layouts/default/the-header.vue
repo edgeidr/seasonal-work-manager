@@ -23,14 +23,16 @@
 </template>
 
 <script setup lang="ts">
-	import breadcrumbs from "@/assets/json/breadcrumbs.json";
+	import breadcrumbsData from "@/assets/json/breadcrumbs.json";
 
-	const currentBreadcrumb = computed(() => {
-		let route = useRoute();
-		let breadcrumb = breadcrumbs[route.name];
+	const breadcrumbs: Breadcrumbs = breadcrumbsData;
 
-		return breadcrumb?.flatMap((item) => {
-			item.newLabel = item.label.replaceAll(":slug", route.params.slug).replaceAll("-", " ");
+	const currentBreadcrumb = computed<Breadcrumb[]>(() => {
+		const route = useRoute();
+		const breadcrumb = breadcrumbs[route.name as string];
+
+		return breadcrumb?.flatMap((item: Breadcrumb) => {
+			item.newLabel = item.label.replaceAll(":slug", route.params.slug as string).replaceAll("-", " ");
 			return item;
 		});
 	});
