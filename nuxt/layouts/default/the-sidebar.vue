@@ -22,7 +22,7 @@
 							side="bottom"
 							:side-offset="4">
 							<DropdownMenuLabel class="text-xs text-muted-foreground"> Other apps </DropdownMenuLabel>
-							<NuxtLink v-for="app in inActiveApps" :key="app.name" :to="app.url">
+							<NuxtLink v-for="app in inActiveApps" :key="app.name" :to="app.url" target="_blank">
 								<DropdownMenuItem class="gap-2 p-2">
 									<div
 										class="flex size-6 aspect-square items-center justify-center rounded-sm border"
