@@ -1,0 +1,37 @@
+[
+	{
+		"uuid": "T4E521",
+		"dateStart": "2024-11-25 01:00:00",
+		"dateEnd": "2024-11-25 02:00:00",
+		"channelId": 1,
+		"channelName": "Global"
+	},
+	{
+		"uuid": "T4E522",
+		"dateStart": "2024-11-25 02:00:00",
+		"dateEnd": "2024-11-25 03:00:00",
+		"channelId": 1,
+		"channelName": "Global"
+	},
+	{
+		"uuid": "T4E523",
+		"dateStart": "2024-11-25 04:00:00",
+		"dateEnd": "2024-11-25 05:00:00",
+		"channelId": 1,
+		"channelName": "Global"
+	},
+	{
+		"uuid": "T4E524",
+		"dateStart": "2024-11-25 07:00:00",
+		"dateEnd": "2024-11-25 09:00:00",
+		"channelId": 1,
+		"channelName": "Global"
+	},
+	{
+		"uuid": "T4E525",
+		"dateStart": "2024-11-25 09:00:00",
+		"dateEnd": "2024-11-25 10:00:00",
+		"channelId": 1,
+		"channelName": "Global"
+	}
+]
